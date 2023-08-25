@@ -1077,10 +1077,10 @@ input[id="icon"]:checked ~ label > span:nth-child(3){
         padding: 0;
     }
     .sec-2 .sec2-content{
-        width: 70%;
+        width: 80%;
     }
     .sec-2 .item-box .img-box {
-        height: 126px;
+        height: 180px;
     }
     .sec-2 .item-box:nth-child(even) {
         margin-top: 0;
@@ -1090,21 +1090,25 @@ input[id="icon"]:checked ~ label > span:nth-child(3){
         margin-top: 12px;
     }
     .sec-2 p {
-        font-size: 8px;
+        font-size: 14px;
         margin-bottom: 4px;
     }
     .sec-2 .item-box .buybtn {
-        width: 50px;
-        height: 18px;
+        width: 70px;
+        height: 28px;
     }
     .sec-2 .item-box .buybtn p {
-        font-size: 6px;
-        padding-top: 3px;
+        font-size: 12px;
+        padding-top: 4px;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after{
+        font-size: 24px !important;
     }
     .sec-3{
         margin: 100px 0;
         height: 290px;
-        overflow:hidden
+        overflow: hidden;
     }
     .sec-3 .md-textbox{
         margin: 40px auto;
@@ -1135,7 +1139,7 @@ input[id="icon"]:checked ~ label > span:nth-child(3){
     .sec-3 .md-imgbox3 {
         width: 840px;
         bottom: 36px;
-        animation: slide1 infinite linear 60s;
+        animation: slide1 infinite linear 60s
     }
 
     @keyframes slide1{
@@ -1147,7 +1151,7 @@ input[id="icon"]:checked ~ label > span:nth-child(3){
         }
     }
     .sec-3 .md-imgbox2{
-        right: -1305px;
+        left: 840px;
     }
     .sec-3 .md-imgbox3{
         left:1680px;
